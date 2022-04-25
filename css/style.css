@@ -176,3 +176,15 @@ img {
 .hidden-menu-ticker:checked ~ .hidden-menu {
     right: 0;
 }
+/* скролбар */
+::-webkit-scrollbar{
+    width: 5px;
+    background:#000000;
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color:#ffffff;
+   border-radius: 5px;
+}
