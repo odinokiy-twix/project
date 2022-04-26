@@ -3,54 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
-
-.block-popup{
-    position: fixed;
-    background: #fff;
-    width: 43%;
-    height: 59%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-shadow: 0 12px 20px -10px;
-    text-align: center;
-    display: none;
-    z-index: 80;
-  }
-  .block-popup span{
-    position: fixed;
-    top: 5px;
-    right: 5px;
-    cursor: pointer;
-    z-index: 80;
-  }
-
-  .overlay {
-    width: 100%;
-    height: 100%;
-    background: rgba(51, 51, 51, 0.78);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: none;
-  }
-
-
 body{ background-color: rgb(184, 178, 206); margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #000000; background-image: url("../logo.png"); background-repeat: no-repeat; background-size: 20%; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
-
-
 body{
     font-family: 'Lato', sans-serif;
-}
-.al {
-    align-items: center;
-    font-size: 18px;
-    text-align: center;
-    padding: 10px 10px 50px;
 }
 .header{
     background-color: #000000; 
@@ -58,10 +13,7 @@ body{
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     margin-bottom: 50px;
-}
-#het{
-    width: 0;
-    height: 0;
+    height: 780px;
 }
 .zagalovok1 {
  text-align: center;
@@ -69,19 +21,8 @@ body{
  color: white;
  text-shadow: rgb(0, 0, 0) 0 5px;
 }
-
-.htit{
-    text-align: center;
-    font-size: 5em;
-    color: #000000;
-    /* text-shadow: 0 -1px 5px #24293f, 0 5px 8px #24293f, 0 5px 8px #24293f; */
-    height: 780px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .content{
+    
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -105,7 +46,6 @@ body{
 .zagalovok{
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 17%;
 }
 .shirokaya {
     height: 120px;
@@ -113,13 +53,7 @@ body{
 .uzkaya{
     width: 150px;
 }
-.obs{
-    margin-right:25px ;
-    width: 25%;
-}
-.obs{
-    width: 200px;
-}
+/* футер */
 .footer{
     padding: 20px 0;
     display: flex;
@@ -186,29 +120,7 @@ body{
     transition: ease-in-out 0.2s;
     opacity: 1;
 }
-.tex {
-    font-size: 16px;
-}
-.tex2 {
-    font-size: 18px;
-    width: 60%;
-    margin-left: 20%;
-}
-.read {
-    font-size: 15px;
-    font-weight: 600;
-    color: blue;
-    cursor: pointer;
-}
-.image {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 65%;
-}
-.image2 {
-    margin-top: 15px;
-    width: 45%;
-}
+
 .aaa{
     
     color: #D5D8DC;
@@ -242,9 +154,65 @@ body{
     background:#000000;
     border-radius: 5px;
 }
-
-
 ::-webkit-scrollbar-thumb {
     background-color:#ffffff;
    border-radius: 5px;
 }
+/* всплываюшие окно */
+.block-popup{
+    position: fixed;
+    background: #fff;
+    width: 43%;
+    height: 59%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 12px 20px -10px;
+    text-align: center;
+    display: none;
+    z-index: 80;
+}
+.block-popup span{
+    font-size: 40px;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 80;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(51, 51, 51, 0.78);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.tex {
+    font-size: 16px;
+}
+.tex2 {
+    font-size: 18px;
+    width: 60%;
+    margin-left: 20%;
+}
+.read {
+    font-size: 15px;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+}
+.image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.image2 {
+    margin-top: 15px;
+    width: 42%;
+}
+/*  */
