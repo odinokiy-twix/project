@@ -92,7 +92,7 @@ body{
 
 
 /*ну не трогайте его уже*/
-.zagalovok{
+.zagalovok {
     text-align: center;
     margin-top: 12%;
     font-size: 49px;
@@ -227,7 +227,7 @@ body{
     position: fixed;
     background: rgb(132, 132, 209);
     width: 43%;
-    height: 59%;
+    height: 72%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -251,7 +251,7 @@ body{
     position: fixed;
     background: rgb(132, 132, 209);
     width: 43%;
-    height: 63%;
+    height: 65%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -275,7 +275,7 @@ body{
     position: fixed;
     background: rgb(132, 132, 209);
     width: 43%;
-    height: 59%;
+    height: 72%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -299,7 +299,7 @@ body{
     position: fixed;
     background: rgb(132, 132, 209);
     width: 43%;
-    height: 59%;
+    height: 68%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -385,5 +385,42 @@ body{
       display:none;
     }
   }
-/*  */
+
+@media only screen and (max-width : 870px) {
+    .block-popup {
+        width: 60%;
+        height: 71%;
+    }
+    .block-popup2 {
+        width: 53%;
+        height: 71%;
+    }
+    .block-popup3 {
+        width: 53%;
+        height: 71%;
+    }
+    .block-popup4 {
+        width: 53%;
+        height: 71%;
+    }
+    .tex2 {
+        font-size: 16px;
+        width: 88%;
+        margin-left: 7%;
+    }
+    .zagalovok {
+        font-size: 38px;
+    }
+    .zagalovok1 {
+        font-size: 43px;
+    }
+    .shirokaya {
+        height: 90px;
+    }
+    .pr1 {
+        width: 200px;
+        height: 180px;
+        font-size: 12px;
+    }
+  }
 
